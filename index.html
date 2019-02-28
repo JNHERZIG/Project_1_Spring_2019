@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Periodic Table of Elements Quiz</title>
+	<meta charset="utf-en">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- This begins the content area of my quiz about the Periodic Table of Elements. In this quiz, the examinee has to choose the right symbol for each element. -->
+<div id="intro">
+	<h1>Periodic Table of Elements Quiz</h1>
+	<p> Welcome to the periodic table of elements quiz. In the quiz below, you will test your knowledge of the symbols for some common (and not so common) elements on the periodic table. <em>Best of luck!</em></p>
+
+	<h2>Quiz</h2>
+	<p><strong>Directions:</strong>  Select the correct answers below then click the submit button to see your results.</p>
+</div>
+
+<div id="quiz">
+	<form>
+		<h3>Question 1</h3>
+		<p>What is the symbol for Carbon?</p>
+		<input type="radio" name="carbon" value="correct" checked>
+		<label>C</label><br>
+
+		<input type="radio" name="carbon" value="wrong">
+		<label>H</label><br>
+
+		<input type="radio" name="carbon" value="wrong">
+		<label>P</label><br>
+		<input type="radio" name="carbon" value="wrong">
+		<label>Ti</label><br>
+
+		<hr>
+		
+		<h3>Question 2</h3>
+		<p>What is the symbol for Hydrogen?</p>
+		
+		<input type="radio" name="hydrogen" value="wrong" checked>
+		<label>Rb</label><br>
+
+		<input type="radio" name="hydrogen" value="correct">
+		<label>H</label><br>
+
+		<input type="radio" name="hydrogen" value="wrong">
+		<label>S</label><br>
+		
+		<input type="radio" name="hydrogen" value="wrong">
+		<label>Pt</label><br>
+
+		<hr>
+
+		<h3>Question 3</h3>
+		<p>What is the symbol for Oxygen?</p>
+
+		<input type="radio" name="oxygen" value="wrong" checked>
+		<label>Ni</label><br>
+
+		<input type="radio" name="oxygen" value="wrong">
+		<label>H</label><br>
+
+		<input type="radio" name="oxygen" value="wrong">
+		<label>Be</label><br>
+
+		<input type="radio" name="oxygen" value="correct">
+		<label>O</label><br>
+
+		<hr>
+
+		<h3>Question 4</h3>
+		<p>What is the symbol for Xenon?</p>
+
+		<input type="radio" name="xenon" value="wrong" checked>
+		<label>Nb</label><br>
+
+		<input type="radio" name="xenon" value="correct">
+		<label>Xe</label><br>
+
+		<input type="radio" name="xenon" value="wrong">
+		<label>Si</label><br>
+
+		<input type="radio" name="xenon" value="wrong">
+		<label>Cr</label><br>
+		
+		<hr>
+
+		<h3>Question 5</h3>
+		<p>What is the symbol of Silicon?</p>
+
+		<input type="radio" name="silicon" value="wrong" checked>
+		<label>P</label><br>
+
+		<input type="radio" name="silicon" value="wrong">
+		<label>F</label><br>
+
+		<input type="radio" name="silicon" value="correct">
+		<label>Si</label><br>
+
+		<input type="radio" name="silicon" value="wrong">
+		<label>Kr</label><br>
+	
+		<hr>
+
+		<h3>Question 6</h3>
+		<p>What is the symbol of Nitrogen?</p>
+		
+		<input type="radio" name="nitrogen" value="wrong" checked>
+		<label>Ni</label><br>
+
+		<input type="radio" name="nitrogen" value="correct">
+		<label>N</label><br>
+
+		<input type="radio" name="nitrogen" value="wrong">
+		<label>Nb</label><br>
+
+		<input type="radio" name="nitrogen" value="wrong">
+		<label>Ne</label><br>
+
+		<hr>
+
+		<h3>Question 7</h3>
+		<p>What is the symbol of Selenium?</p>
+	
+		<input type="radio" name="selenium" value="wrong" checked>
+		<label>Br</label><br>
+
+		<input type="radio" name="selenium" value="correct">
+		<label>Se</label><br>
+
+		<input type="radio" name="selenium" value="wrong">
+		<label>Ge</label><br>
+
+		<input type="radio" name="selenium" value="wrong">
+		<label>Ti</label><br>
+
+		<hr>
+
+		<h3>Question 8</h3>
+		<p>What is the symbol of Potassium?</p>
+	
+		<input type="radio" name="potassium" value="correct" checked>
+		<label>K</label><br>
+
+		<input type="radio" name="potassium" value="wrong">
+		<label>N</label><br>
+
+		<input type="radio" name="potassium" value="wrong">
+		<label>P</label><br>
+
+		<input type="radio" name="potassium" value="wrong">
+		<label>S</label><br>
+
+		<hr>
+
+		<h3>Question 9</h3>
+		<p>What is the symbol of Phosphorus?</p>
+	
+		<input type="radio" name="phosphorus" value="correct" checked>
+		<label>P</label><br>
+
+		<input type="radio" name="phosphorus" value="wrong">
+		<label>Yt</label><br>
+
+		<input type="radio" name="phosphorus" value="wrong">
+		<label>Au</label><br>
+
+		<input type="radio" name="phosphorus" value="wrong">
+		<label>Bi</label><br>
+		
+		<hr>
+
+		<h3>Question 10</h3>
+		<p>What is the symbol of Rubidium?</p>
+		
+		<input type="radio" name="rubidium" value="correct" checked>
+		<label>Rb</label><br>
+
+		<input type="radio" name="rubidium" value="wrong">
+		<label>Ra</label><br>
+
+		<input type="radio" name="rubidium" value="wrong">
+		<label>R</label><br>
+
+		<input type="radio" name="rubidium" value="wrong">
+		<label>Ne</label><br>
+			
+		<hr>
+		
+		<p>Submit answers to see score</p>
+		<input type="button" onClick="submitQuiz()" value="Submit Answers">
+	</form>
+	</div>
+	<div id="results">
+		
+	<h3>Quiz Results</h3>
+
+	<p>
+		1. <span class="carbon"></span><br>
+		2. <span class="hydrogen"></span><br>
+		3. <span class="oxygen"></span><br>
+		4. <span class="xenon"></span><br>
+		5. <span class="silicon"></span><br>
+		6. <span class="nitrogen"></span><br>
+		7. <span class="selenium"></span><br>
+		8. <span class="potassium"></span><br>
+		9. <span class="phosphorus"></span><br>
+		10. <span class="rubidium"></span><br>
+	</p>
+
+	<div id="score-results">
+		<h2>Score Results:</h2>
+		<p>Your Score: <span class="numRight"></span></p>
+		<p><span class="score"></span></p>
+	</div>
+<script src="js/main.js"></script>
+</body>
+</html>

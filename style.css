@@ -1,0 +1,13 @@
+/* The background image used is from pixabay.com */
+
+
+body {
+	padding: 50px;
+	margin: 50px;
+	color: black;
+	font-size: 18px;
+	font-family: calibri;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
